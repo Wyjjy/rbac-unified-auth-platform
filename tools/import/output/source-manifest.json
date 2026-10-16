@@ -1,0 +1,20 @@
+{
+  "mapping_version": 1,
+  "files": [
+    {
+      "file": "市政公司员工信息表.xlsx",
+      "sha256": "66657800a5e2e252c9d1dedfee2dbd54b694e3a5912166c2bac79c8703b20516",
+      "data_rows": 10000
+    },
+    {
+      "file": "市政公司部门信息表.xlsx",
+      "sha256": "555ae8cb1a1569dda43cf53c47ee37f4ba4e8964f334ec8f2e1ef73699686c40",
+      "data_rows": 111
+    },
+    {
+      "file": "市政公司应用软件功能权限清单.xlsx",
+      "sha256": "90aa5e0f185fc88e755f7acc7b46f5c27ef5cdcdae226a8d86d3ffef768206f3",
+      "data_rows": 87
+    }
+  ]
+}

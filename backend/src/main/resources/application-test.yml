@@ -1,0 +1,6 @@
+# 测试专用：TDD 红绿循环连本地 MySQL（当前为临时实例 3307；正式启用本机 MySQL80 服务后改为 3306）
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3307/rbac?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: root
+    password: ""
