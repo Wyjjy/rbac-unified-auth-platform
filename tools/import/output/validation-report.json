@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-10-15T03:17:09+00:00",
+  "mapping_version": 1,
+  "errors": [],
+  "org": {
+    "total": 111,
+    "roots": 1,
+    "by_type": {
+      "ROOT": 1,
+      "DEPARTMENT": 65,
+      "COMPANY": 9,
+      "PROJECT_DEPT": 36
+    },
+    "manager_filled": 109,
+    "manager_pending": [
+      {
+        "node": "桥梁工程分公司",
+        "manager_name": "潘明",
+        "reason": "多个候选",
+        "candidates": [
+          {
+            "username": "SG001281",
+            "dept": "桥梁工程分公司",
+            "position": "经理"
+          },
+          {
+            "username": "SG001453",
+            "dept": "桥梁工程分公司-第一项目经理部",
+            "position": "机械管理员"
+          }
+        ]
+      },
+      {
+        "node": "隧道工程分公司",
+        "manager_name": "宋永",
+        "reason": "多个候选",
+        "candidates": [
+          {
+            "username": "SG002371",
+            "dept": "隧道工程分公司",
+            "position": "经理"
+          },
+          {
+            "username": "SG002847",
+            "dept": "隧道工程分公司-第二项目经理部",
+            "position": "造价员"
+          }
+        ]
+      }
+    ]
+  },
+  "employee": {
+    "total_source_rows": 10000,
+    "accepted": 10000,
+    "duplicate_username": [],
+    "org_unmatched": []
+  },
+  "permission": {
+    "apps": 15,
+    "modules": 50,
+    "functions": 87,
+    "unique_atomic_perms": 220,
+    "grant_cells": {
+      "cells": 435,
+      "NONE": 14,
+      "PUBLISHED": 153,
+      "DEFERRED_SCOPE": 7,
+      "PENDING_CONFIRMATION": 7,
+      "MIXED": 254,
+      "full_expand": 87
+    },
+    "actions": {
+      "view_published": 405,
+      "view_deferred": 18,
+      "other_pending": 326
+    }
+  },
+  "org_pending_managers": [
+    {
+      "node": "桥梁工程分公司",
+      "manager_name": "潘明",
+      "reason": "多个候选",
+      "candidates": [
+        {
+          "username": "SG001281",
+          "dept": "桥梁工程分公司",
+          "position": "经理"
+        },
+        {
+          "username": "SG001453",
+          "dept": "桥梁工程分公司-第一项目经理部",
+          "position": "机械管理员"
+        }
+      ]
+    },
+    {
+      "node": "隧道工程分公司",
+      "manager_name": "宋永",
+      "reason": "多个候选",
+      "candidates": [
+        {
+          "username": "SG002371",
+          "dept": "隧道工程分公司",
+          "position": "经理"
+        },
+        {
+          "username": "SG002847",
+          "dept": "隧道工程分公司-第二项目经理部",
+          "position": "造价员"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "org_total": 111,
+    "employees_accepted": 10000,
+    "unique_perms": 220,
+    "grant_cells": {
+      "cells": 435,
+      "NONE": 14,
+      "PUBLISHED": 153,
+      "DEFERRED_SCOPE": 7,
+      "PENDING_CONFIRMATION": 7,
+      "MIXED": 254,
+      "full_expand": 87
+    },
+    "error_count": 0
+  }
+}
